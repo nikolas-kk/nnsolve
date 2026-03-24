@@ -16,21 +16,21 @@ fnnls(
 )
 }
 \arguments{
-\item{XtX}{symmetric positive definite matrix of dimensions k x k}
+\item{XtX}{A symmetric positive definite matrix of dimensions k x k.}
 
-\item{Xty}{numeric vector of length k}
+\item{Xty}{A numeric vector of length k.}
 
-\item{tol}{convergence tolerance. Default 1e-6}
+\item{tol}{The convergence tolerance, default is 1e-6.}
 
-\item{max_iter}{maximum number of iterations. Default 1000}
+\item{max_iter}{The maximum number of iterations, default is 1000.}
 
-\item{sum_to_constant}{if TRUE all entries sum to 'constant'.Default FALSE}
+\item{sum_to_constant}{If TRUE all entries sum to 'constant', Default is FALSE.}
 
-\item{constant}{if sum_to_constant is TRUE, all entries sum to this number. Default 1}
+\item{constant}{If sum_to_constant is TRUE, all entries sum to this number. The default value is 1.}
 
-\item{lower_bound}{if TRUE all entries bounded below by 'lb', otherwise they are nonnegative. Default FALSE}
+\item{lower_bound}{If TRUE all entries bounded below by 'lb', otherwise they are nonnegative. The default value is FALSE.}
 
-\item{lb}{if lower_bound is TRUE all entries are bounded below by 'lb'. Default 0}
+\item{lb}{If lower_bound is TRUE all entries are bounded below by 'lb'. The default value is0.}
 }
 \value{
 non-negative numeric vector of length k
