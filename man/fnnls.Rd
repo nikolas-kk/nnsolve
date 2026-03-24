@@ -33,7 +33,7 @@ fnnls(
 \item{lb}{If lower_bound is TRUE all entries are bounded below by 'lb'. The default value is0.}
 }
 \value{
-non-negative numeric vector of length k
+A non-negative numeric vector of length k with the estimated coefficients.
 }
 \description{
 Solves the NNLS problem min ||Xty - XtX * w||^2 subject to w >= 0
