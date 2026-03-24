@@ -30,7 +30,7 @@ fnnls(
 
 \item{lower_bound}{If TRUE all entries bounded below by 'lb', otherwise they are nonnegative. The default value is FALSE.}
 
-\item{lb}{If lower_bound is TRUE all entries are bounded below by 'lb'. The default value is0.}
+\item{lb}{If lower_bound is TRUE all entries are bounded below by 'lb'. The default value is 0.}
 }
 \value{
 A non-negative numeric vector of length k with the estimated coefficients.

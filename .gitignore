@@ -1,1 +1,6 @@
 .Rproj.user
+.Rbuildignore
+*.o
+*.so
+*.dll
+
