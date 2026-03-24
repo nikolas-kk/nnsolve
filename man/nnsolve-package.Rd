@@ -6,7 +6,7 @@
 \alias{nnsolve-package}
 \title{nnsolve: Fast Non-Negative Least Squares}
 \description{
-This package provides a fast algorithm for solving non-negative least squares problems. It implements the Fast Non-Negative Least Squares algorithm. of Bro and de Jong (1997).
+This package provides a fast algorithm for solving non-negative least squares problems. It implements the Fast Non-Negative Least Squares algorithm of Bro and De Jong (1997).
 }
 \author{
 \strong{Maintainer}: Nikolaos Kontemeniotis \email{kontemeniotisn@gmail.com}
