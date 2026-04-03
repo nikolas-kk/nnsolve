@@ -1,7 +1,7 @@
 //[[Rcpp::depends(RcppEigen)]]
 
-#include "fnnls.h"
-#include "fnnls_core.h"
+#include <nnsolve/fnnls_core.h>
+#include <nnsolve/fnnls.h>
 #include <RcppEigen.h>
 
 
