@@ -6,6 +6,7 @@
 
 
 //[[Rcpp::export]]
+
 Eigen::VectorXd fnnls_cpp(const Eigen::MatrixXd &XtX, const Eigen::VectorXd &Xty,
                    const double tol, const int max_iter,
                    const bool sum_to_constant,
@@ -44,3 +45,4 @@ Eigen::VectorXd fnnls_cpp(const Eigen::MatrixXd &XtX, const Eigen::VectorXd &Xty
     w.array() = w.array() / (w.sum() / constant);
   return w;
 }
+

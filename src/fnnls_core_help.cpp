@@ -6,8 +6,6 @@
 
 using std::vector;
 
-namespace nnsolve::fnnls {
-
 bool add_kkt_violators(const Vec &neg_gradient, vector<char> &is_active,
                        vector<int> &passive, const int ncoef,
                        const double tol) {
@@ -150,4 +148,3 @@ void update_active_after_step(Vec &coeffs, const vector<int> &passive,
   }
 }
 
-} // namespace nnmf::fnnls

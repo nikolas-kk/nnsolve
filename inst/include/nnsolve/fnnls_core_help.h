@@ -4,7 +4,6 @@
 #include <Eigen/Dense>
 #include <vector>
 
-namespace nnsolve::fnnls {
 
 bool add_kkt_violators(const Vec &neg_gradient, std::vector<char> &is_active,
                        std::vector<int> &passive, const int ncoef,
@@ -39,4 +38,3 @@ void update_active_after_step(Vec &coeffs, const std::vector<int> &passive,
                               std::vector<int> &updated_passive,
                               std::vector<char> &is_active, const double tol);
 
-} // namespace nnsolve::fnnls
