@@ -36,7 +36,7 @@ fnnls(
 non-negative numeric vector of length k
 }
 \description{
-Solves the NNLS problem min ||Xty - XtX * w||^2 subject to w >= 0
+Solves the NNLS problem min ||y - x * w||^2 subject to w >= 0
 using the Fast Non-Negative Least Squares algorithm of Bro & de Jong (1997).
 }
 \examples{
